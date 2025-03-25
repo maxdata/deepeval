@@ -4,7 +4,7 @@ from deepeval.test_case import LLMTestCase
 
 answer_relevancy_metric = AnswerRelevancyMetric(threshold=0.7)
 test_case = LLMTestCase(
-    input="What if these shoes don't fit?",
+    input="What if these shoes dont fit?",
     actual_output="We offer a 30-day full refund at no extra costs.",
     retrieval_context=["All customers are eligible for a 30 day full refund at no extra costs."]
 )
